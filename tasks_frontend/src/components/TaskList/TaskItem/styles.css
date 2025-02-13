@@ -1,0 +1,43 @@
+.task-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  gap: 1rem;
+}
+
+.action-button {
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  width: 2rem;
+  height: 2rem;
+}
+
+.edit-button {
+  background-color: green;
+}
+
+.delete-button {
+  background-color: red;
+}
+
+.task-item-content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.task-item-actions {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
